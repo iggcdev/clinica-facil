@@ -8,11 +8,12 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container py-4" id="auth">
-    <h1 class="mb-4">Clínica Fácil</h1>
-    <div id="login-section">
-      <h2>Login</h2>
-      <form id="login-form">
+  <div id="auth">
+    <div class="auth-card">
+      <h1 class="text-center text-primary mb-4">Clínica Fácil</h1>
+      <div id="login-section">
+        <h2>Login</h2>
+        <form id="login-form">
         <div class="mb-3">
           <label for="login-email" class="form-label">Email</label>
           <input type="email" class="form-control" id="login-email" required>
@@ -45,6 +46,7 @@
         <button type="button" class="btn btn-link" id="show-login">Voltar ao login</button>
       </form>
     </div>
+  </div>
   </div>
 
   <div class="container py-4 d-none" id="dashboard">
